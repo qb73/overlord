@@ -1,0 +1,282 @@
+/* CSS Document */
+
+/* Colors\
+
+Red - #B21425
+Blue - #2C3789
+White - #F5F3F4
+Black - #342D34
+Beige - #F8E7BC
+
+*/
+
+/* CSS Reset */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+/* Header Styles */
+
+header, main {
+	background-color: #F5F3F4; /* White */
+}
+
+header {
+	padding: 75px 35px;
+}
+
+h1, blockquote {
+	color: #342D34; /* Black */
+	text-align: center;
+	text-shadow: #2C3789 5px 5px 5px;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+blockquote {
+	font-size: 4em;
+}
+
+/* End of Header Styles */
+
+
+/* Navigation Styles */
+
+.topNav {
+	background-color: #F5F3F4; /* White */
+	padding: 30px 35px; 
+	border: solid #342D34; /* Black */
+}
+
+.topNav ul li {
+	list-style: none;
+	display: inline;
+}
+
+.topNav a {
+	color: #342D34; /* Black */
+	background-color: #F5F3F4; /* White */
+	padding: 30px 30px;
+	text-decoration: none;
+	font-size: 1.75em;
+}
+
+.topNav a:hover {
+	color: #F5F3F4; /* White */
+	background-color: #342D34; /* Black */
+}
+
+
+
+/* End of Navigation Styles */
+
+
+/* Main Styles */
+
+main {
+	height: 400px;
+}
+
+#alt {
+	height: 600px;
+}
+
+h2, p {
+	color: #342D34; /* Black */
+	margin-left: 40px;
+	text-align: left;
+	float: left;
+}
+
+h2 {
+	font-size: 2em;
+	margin-top: 80px;
+}
+
+#newsTitle {
+	font-size: 1.60em;
+	margin-right: 50px;
+	margin-bottom: 40px;
+}
+
+p {
+	font-size: 1.1em;
+	margin-top: 20px;
+	margin-right: 715px;
+}
+
+#credits {
+	margin-right: 600px;
+	font-size: 0.9em;
+}
+
+#credits a {
+	color: #D81F0A; /* Red */
+	text-decoration: none;
+}
+
+#credits a:hover {
+	color: #342D34; /* Dark Blue */
+}
+
+.image1 {
+	background-image: url("../images/map.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+.image2 {
+	background-image: url("../images/omaha.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+.image3 {
+	background-image: url("../images/gold.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+.image4 {
+	background-image: url("../images/juno.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+.image5 {
+	background-image: url("../images/landings.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+.image6 {
+	background-image: url("../images/divSymbol.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+form {
+	width: 35.25%;
+	height: 80%;
+	border: 10px #342D34 solid; /* Dark Blue */
+	background-color: #F5F3F4; /* White */
+	padding: 50px;
+	font-size: 1.25em;
+}
+
+input {
+	font-size: 1.1em; 
+	border-radius: 5px;
+	background-color: #F5F3F4; /* White */
+}
+
+input[type=text] {
+	width: 70%;
+}
+		
+input[type=email] {
+	width: 98%;
+}
+
+input[type=submit] {
+	background-color: #D81F0A; /* Red */
+	color: #F5F3F4; /* White */
+	padding: 3%;
+	margin: 10%;
+}
+
+input[type=submit]:hover {
+	background-color: #7CB54A; /* Green */
+	color: #F5F3F4; /* White */
+	padding: 3%;
+}
+input[type=reset] {
+	background-color: #2C3789;
+	color: #F5F3F4; /* White */
+	padding: 3%;
+}
+
+input[type=reset]:hover {
+	background-color: orange;
+	color: #F5F3F4; /* White */
+	padding: 3%;
+}
+
+/* End of Main Styles */
+
+
+/* Footer Styles */
+
+
+
+/* End of Footer Styles */
+
+footer {
+	background-color: #342D34; /* Black */
+	height: 300px;
+}
+
+footer a, h4, h5 {
+	color: #F5F3F4; /* White */
+}
+
+h4, h5 {
+	padding: 10px;
+}
+
+.disclaimer h4, .disclaimer h5 {
+	padding: 10px;
+}
+
+.disclaimer {
+	padding-top: 40px;
+	display: block;
+	margin-top: -200px;
+	margin-right: 825px;
+}
+
+.botNav {
+	padding-top: 40px;
+	margin-right: 15px;
+	text-align: right;
+}
+
+.botNav ul {
+	list-style-type: none;
+}
+
+.botNav li {
+	padding-top: 8px;
+}
+
+.botNav a {
+	text-decoration: none;
+}
+
+.botNav a:hover {
+	color: #B21425; /* Red */
+}
+
+
+/* Unused Assets */
+
+body {
+	
+}
+
+table {
+	
+}
+
+
